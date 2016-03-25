@@ -1,0 +1,15 @@
+{
+    "name": "jorenvanhocht/hash",
+    "description": "Quickly create a (database unique) hash.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joren Van Hocht",
+            "email": "vanhochtjoren@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/contracts": "5.2.*",
+        "illuminate/database": "5.2.*"
+    }
+}
