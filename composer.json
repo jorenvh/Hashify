@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "illuminate/contracts": "5.2.*",
-        "illuminate/database": "5.2.*"
+        "illuminate/contracts": "v5.2.7",
+        "illuminate/database": "v5.2.7"
     }
 }
