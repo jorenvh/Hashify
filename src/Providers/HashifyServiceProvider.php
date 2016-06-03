@@ -24,7 +24,7 @@ class HashifyServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->mergeConfigFrom(__DIR__.'/../../config/hashify.php', 'hash');
+        $this->mergeConfigFrom(__DIR__.'/../../config/hashify.php', 'hashify');
 
         $this->publishes([
             __DIR__.'/../../config/hashify.php' => config_path(),
