@@ -1,6 +1,6 @@
 {
-    "name": "jorenvanhocht/hash",
-    "description": "Quickly create a (database unique) hash.",
+    "name": "jorenvanhocht/hashify",
+    "description": "Quickly create a (database unique) string.",
     "license": "MIT",
     "authors": [
         {
