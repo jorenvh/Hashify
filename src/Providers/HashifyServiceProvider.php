@@ -27,7 +27,7 @@ class HashifyServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(__DIR__.'/../../config/hashify.php.php', 'hash');
 
         $this->publishes([
-            __DIR__.'/../../config/hashify.php.php' => config_path(),
+            __DIR__.'/../../config/hashify.php' => config_path(),
         ], 'config');
     }
 }
