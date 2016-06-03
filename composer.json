@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "jorenvanhocht\\hashify\\": "src/"
+            "jorenvanhocht\\Hashify\\": "src/"
         }
     }
 }
