@@ -9,7 +9,12 @@
         }
     ],
     "require": {
-        "illuminate/contracts": "v5.2.7",
-        "illuminate/database": "v5.2.7"
+        "illuminate/contracts": "~v5.2",
+        "illuminate/database": "~v5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "jorenvanhocht\\hashify\\": "src/"
+        }
     }
 }

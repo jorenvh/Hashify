@@ -1,11 +1,11 @@
 <?php
 
-namespace JorenVanHocht\Hash;
+namespace jorenvanhocht\Hashify;
 
 use Illuminate\Contracts\Config\Repository;
 use Illuminate\Database\DatabaseManager;
 
-class Hash
+class Hashify
 {
     /**
      * @var \Illuminate\Database\Connection

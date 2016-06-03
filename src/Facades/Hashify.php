@@ -1,13 +1,13 @@
 <?php
 
-namespace JorenVanHocht\Hash\Facades;
+namespace jorenvanhocht\Hashify\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class HashGenerator extends Facade
+class Hashify extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'jorenvanhocht.hash';
+        return 'jorenvanhocht.hashify';
     }
 }
