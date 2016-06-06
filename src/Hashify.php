@@ -47,7 +47,7 @@ class Hashify
     public function __construct(DatabaseManager $db, Repository $config)
     {
         $this->db = $db->connection();
-        $this->config = $config->get('hash');
+        $this->config = $config->get('hashify');
     }
 
     /**
