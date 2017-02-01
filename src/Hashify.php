@@ -99,7 +99,7 @@ class Hashify
             ->where($column, '=', $this->hash)
             ->get();
 
-        if($result) {
+        if($result->count()) {
             return $this->make($this->minLength, $this->maxLength)
                 ->unique($table, $column);
         }

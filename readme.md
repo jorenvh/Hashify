@@ -1,6 +1,6 @@
 # Hashify
 
-This Laravel 5.2 package makes it easy to generate random strings from a given charset. It can also generate database table and/or column unique strings.
+This Laravel package makes it easy to generate random strings from a given charset. It can also generate database table and/or column unique strings.
 
 ## Installation
 
@@ -71,7 +71,7 @@ public function myMethod()
 }
 ```
 ## To do 
-The usage of diffrent char sets.
+The usage of different char sets.
 
 ## License
 
